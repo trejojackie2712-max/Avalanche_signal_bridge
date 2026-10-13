@@ -100,6 +100,7 @@ function buildCornixMessage(signal) {
   return `#${symbol}/USDT
 
 Signal Type: Regular (${signalType})
+Leverage: Isolated (20X)
 
 Entry:
 ${formatPrice(entry)}
